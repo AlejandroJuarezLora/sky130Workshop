@@ -1,0 +1,82 @@
+magic
+tech sky130A
+magscale 1 2
+timestamp 1718320476
+<< error_p >>
+rect -29 -238 29 -232
+rect -29 -272 -17 -238
+rect -29 -278 29 -272
+<< nwell >>
+rect -211 -411 211 411
+<< pmos >>
+rect -15 -191 15 263
+<< pdiff >>
+rect -73 251 -15 263
+rect -73 -179 -61 251
+rect -27 -179 -15 251
+rect -73 -191 -15 -179
+rect 15 251 73 263
+rect 15 -179 27 251
+rect 61 -179 73 251
+rect 15 -191 73 -179
+<< pdiffc >>
+rect -61 -179 -27 251
+rect 27 -179 61 251
+<< nsubdiff >>
+rect -175 341 -79 375
+rect 79 341 175 375
+rect -175 -341 -141 341
+rect 141 -341 175 341
+rect -175 -375 175 -341
+<< nsubdiffcont >>
+rect -79 341 79 375
+<< poly >>
+rect -15 263 15 289
+rect -15 -222 15 -191
+rect -33 -238 33 -222
+rect -33 -272 -17 -238
+rect 17 -272 33 -238
+rect -33 -288 33 -272
+<< polycont >>
+rect -17 -272 17 -238
+<< locali >>
+rect -95 341 -79 375
+rect 79 341 95 375
+rect -61 251 -27 267
+rect -61 -195 -27 -179
+rect 27 251 61 267
+rect 27 -195 61 -179
+rect -33 -272 -17 -238
+rect 17 -272 33 -238
+<< viali >>
+rect -61 -179 -27 251
+rect 27 -136 61 208
+rect -17 -272 17 -238
+<< metal1 >>
+rect -67 251 -21 263
+rect -67 -179 -61 251
+rect -27 -179 -21 251
+rect 21 208 67 220
+rect 21 -136 27 208
+rect 61 -136 67 208
+rect 21 -148 67 -136
+rect -67 -191 -21 -179
+rect -29 -238 29 -232
+rect -29 -272 -17 -238
+rect 17 -272 29 -238
+rect -29 -278 29 -272
+<< labels >>
+flabel metal1 s -44 34 -44 34 0 FreeSans 480 0 0 0 D
+port 1 nsew
+flabel metal1 s 48 42 48 42 0 FreeSans 480 0 0 0 S
+port 3 nsew
+flabel metal1 s -2 -256 -2 -256 0 FreeSans 480 0 0 0 G
+port 4 nsew
+flabel nsubdiffcont -2 358 -2 358 0 FreeSans 480 0 0 0 B
+port 5 nsew
+<< properties >>
+string FIXED_BBOX -158 -358 158 358
+string gencell sky130_fd_pr__pfet_01v8
+string library sky130
+string parameters w 2.27 l 0.15 m 1 nf 1 diffcov 100 polycov 100 guard 1 glc 0 grc 0 gtc 1 gbc 0 tbcov 100 rlcov 100 topc 0 botc 1 poverlap 0 doverlap 1 lmin 0.15 wmin 0.42 compatible {sky130_fd_pr__pfet_01v8  sky130_fd_pr__pfet_01v8_lvt sky130_fd_pr__pfet_01v8_hvt  sky130_fd_pr__pfet_g5v0d10v5} full_metal 0 viasrc 80 viadrn 100 viagate 100 viagb 0 viagr 0 viagl 0 viagt 0
+<< end >>

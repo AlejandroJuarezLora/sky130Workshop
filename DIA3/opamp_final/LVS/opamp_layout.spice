@@ -1,0 +1,59 @@
+* NGSPICE file created from opamp.ext - technology: sky130A
+
+.subckt sky130_fd_pr__pfet_01v8_R3FGVA D S G B
+X0 S G D B sky130_fd_pr__pfet_01v8 ad=0.6583 pd=5.12 as=0.6583 ps=5.12 w=2.27 l=0.15
+.ends
+
+.subckt sky130_fd_pr__nfet_01v8_XZTLFT D S G B
+X0 S G D B sky130_fd_pr__nfet_01v8 ad=0.2494 pd=2.3 as=0.2494 ps=2.3 w=0.86 l=0.15
+.ends
+
+.subckt sky130_fd_pr__nfet_01v8_DAKYLM G D S B
+X0 S G D B sky130_fd_pr__nfet_01v8 ad=0.957 pd=6.13 as=1.798 ps=12.22 w=5.8 l=0.15
+X1 D G S B sky130_fd_pr__nfet_01v8 ad=0.957 pd=6.13 as=0.957 ps=6.13 w=5.8 l=0.15
+X2 D G S B sky130_fd_pr__nfet_01v8 ad=0.957 pd=6.13 as=0.957 ps=6.13 w=5.8 l=0.15
+X3 S G D B sky130_fd_pr__nfet_01v8 ad=0.957 pd=6.13 as=0.957 ps=6.13 w=5.8 l=0.15
+X4 S G D B sky130_fd_pr__nfet_01v8 ad=1.798 pd=12.22 as=0.957 ps=6.13 w=5.8 l=0.15
+.ends
+
+.subckt sky130_fd_pr__nfet_01v8_5Y6VJK D S G B
+X0 S G D B sky130_fd_pr__nfet_01v8 ad=0.1421 pd=1.56 as=0.1421 ps=1.56 w=0.49 l=0.15
+.ends
+
+.subckt sky130_fd_pr__res_generic_po_UTTMMG a_n33_n595# a_n33_165#
+X0 a_n33_165# a_n33_n595# sky130_fd_pr__res_generic_po w=0.33 l=1.65
+.ends
+
+.subckt sky130_fd_pr__pfet_01v8_655UAJ D S G B
+X0 D G S B sky130_fd_pr__pfet_01v8 ad=0.93885 pd=6.02 as=0.93885 ps=6.02 w=5.69 l=0.15
+X1 S G D B sky130_fd_pr__pfet_01v8 ad=0.93885 pd=6.02 as=1.7639 ps=12 w=5.69 l=0.15
+X2 S G D B sky130_fd_pr__pfet_01v8 ad=0.93885 pd=6.02 as=0.93885 ps=6.02 w=5.69 l=0.15
+X3 S G D B sky130_fd_pr__pfet_01v8 ad=0.93885 pd=6.02 as=0.93885 ps=6.02 w=5.69 l=0.15
+X4 D G S B sky130_fd_pr__pfet_01v8 ad=0.93885 pd=6.02 as=0.93885 ps=6.02 w=5.69 l=0.15
+X5 D G S B sky130_fd_pr__pfet_01v8 ad=0.93885 pd=6.02 as=0.93885 ps=6.02 w=5.69 l=0.15
+X6 S G D B sky130_fd_pr__pfet_01v8 ad=0.93885 pd=6.02 as=0.93885 ps=6.02 w=5.69 l=0.15
+X7 S G D B sky130_fd_pr__pfet_01v8 ad=0.93885 pd=6.02 as=0.93885 ps=6.02 w=5.69 l=0.15
+X8 D G S B sky130_fd_pr__pfet_01v8 ad=1.7639 pd=12 as=0.93885 ps=6.02 w=5.69 l=0.15
+X9 D G S B sky130_fd_pr__pfet_01v8 ad=0.93885 pd=6.02 as=0.93885 ps=6.02 w=5.69 l=0.15
+.ends
+
+.subckt sky130_fd_pr__nfet_01v8_XKTGFS D S G B
+X0 S G D B sky130_fd_pr__nfet_01v8 ad=0.3886 pd=3.26 as=0.3886 ps=3.26 w=1.34 l=0.15
+.ends
+
+.subckt opamp vdd gnd vout2 vout1 vb2 vb1 vin1 vin2
+Xsky130_fd_pr__pfet_01v8_R3FGVA_0 X vdd vb1 vdd sky130_fd_pr__pfet_01v8_R3FGVA
+Xsky130_fd_pr__pfet_01v8_R3FGVA_1 Y vdd vb1 vdd sky130_fd_pr__pfet_01v8_R3FGVA
+Xsky130_fd_pr__nfet_01v8_XZTLFT_0 X sky130_fd_pr__nfet_01v8_XZTLFT_1/S vin2 gnd sky130_fd_pr__nfet_01v8_XZTLFT
+Xsky130_fd_pr__nfet_01v8_DAKYLM_1 sky130_fd_pr__nfet_01v8_DAKYLM_1/G sky130_fd_pr__nfet_01v8_DAKYLM_1/G
++ gnd gnd sky130_fd_pr__nfet_01v8_DAKYLM
+Xsky130_fd_pr__nfet_01v8_XZTLFT_1 Y sky130_fd_pr__nfet_01v8_XZTLFT_1/S vin1 gnd sky130_fd_pr__nfet_01v8_XZTLFT
+Xsky130_fd_pr__nfet_01v8_5Y6VJK_0 sky130_fd_pr__nfet_01v8_XZTLFT_1/S gnd sky130_fd_pr__nfet_01v8_DAKYLM_1/G
++ gnd sky130_fd_pr__nfet_01v8_5Y6VJK
+Xsky130_fd_pr__res_generic_po_UTTMMG_0 sky130_fd_pr__nfet_01v8_DAKYLM_1/G vdd sky130_fd_pr__res_generic_po_UTTMMG
+Xsky130_fd_pr__pfet_01v8_655UAJ_0 vout2 vdd X vdd sky130_fd_pr__pfet_01v8_655UAJ
+Xsky130_fd_pr__nfet_01v8_XKTGFS_0 vout2 gnd vb2 gnd sky130_fd_pr__nfet_01v8_XKTGFS
+Xsky130_fd_pr__nfet_01v8_XKTGFS_1 vout1 gnd vb2 gnd sky130_fd_pr__nfet_01v8_XKTGFS
+Xsky130_fd_pr__pfet_01v8_655UAJ_1 vout1 vdd Y vdd sky130_fd_pr__pfet_01v8_655UAJ
+.ends
+

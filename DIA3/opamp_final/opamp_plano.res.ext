@@ -1,0 +1,536 @@
+scale 1000 1 500000
+rnode "sky130_fd_pr__nfet_01v8_XKTGFS_0.G" 0 0 620 -572 0
+rnode "vb2.t1" 0 0 616 -763 0
+rnode "vb2.n0" 0 0 616 -574 0
+rnode "vb2" 0 0 -110 -726 0
+rnode "vb2.t0" 0 0 -634 -763 0
+rnode "vb2.n1" 0 0 -634 -574 0
+rnode "sky130_fd_pr__nfet_01v8_XKTGFS_1.G" 0 0 -638 -572 0
+resist "vb2.n0" "sky130_fd_pr__nfet_01v8_XKTGFS_0.G" 0.0106383
+resist "sky130_fd_pr__nfet_01v8_XKTGFS_1.G" "vb2.n1" 0.0108696
+resist "vb2.n1" "vb2" 2.19339
+resist "vb2" "vb2.n0" 2.91393
+resist "vb2.n1" "vb2.t0" 436.04
+resist "vb2.n0" "vb2.t1" 436.04
+rnode "vb1.t1" 0 0 619 56 0
+rnode "vb1.t0" 0 0 -649 57 0
+rnode "sky130_fd_pr__pfet_01v8_R3FGVA_1.G" 0 0 -647 -235 0
+rnode "vb1" 0 0 -76 -236 0
+rnode "sky130_fd_pr__pfet_01v8_R3FGVA_0.G" 0 0 617 -236 0
+resist "vb1" "sky130_fd_pr__pfet_01v8_R3FGVA_1.G" 6.48784
+resist "sky130_fd_pr__pfet_01v8_R3FGVA_0.G" "vb1" 6.93637
+resist "sky130_fd_pr__pfet_01v8_R3FGVA_0.G" "vb1.t1" 599.925
+resist "sky130_fd_pr__pfet_01v8_R3FGVA_1.G" "vb1.t0" 599.925
+rnode "vin2.t0" 0 0 195 47 0
+rnode "vin2" 0 0 164 162 0
+rnode "sky130_fd_pr__nfet_01v8_XZTLFT_0.G" 0 0 193 188 0
+resist "sky130_fd_pr__nfet_01v8_XZTLFT_0.G" "vin2" 0.0625
+resist "sky130_fd_pr__nfet_01v8_XZTLFT_0.G" "vin2.t0" 358.924
+rnode "vin1" 0 0 -258 163 0
+rnode "vin1.t0" 0 0 -227 47 0
+rnode "vin1.n0" 0 0 -227 188 0
+rnode "sky130_fd_pr__nfet_01v8_XZTLFT_1.G" 0 0 -225 188 0
+resist "sky130_fd_pr__nfet_01v8_XZTLFT_1.G" "vin1.n0" 0.00431034
+resist "vin1.n0" "vin1" 0.0668103
+resist "vin1.n0" "vin1.t0" 358.92
+rnode "vout2.t7" 0 532.629 1924 -258 0
+rnode "vout2.t4" 0 146.755 1798 -258 0
+rnode "vout2.t1" 0 146.755 1732 -258 0
+rnode "vout2.n0" 0 321.322 1765 -258 0
+rnode "vout2.n1" 0 1476.53 1742 286 0
+rnode "vout2.t9" 0 146.755 1606 -258 0
+rnode "vout2.t5" 0 146.755 1540 -258 0
+rnode "vout2.n2" 0 321.322 1573 -258 0
+rnode "vout2.n3" 0 715.217 1550 286 0
+rnode "vout2.t2" 0 146.755 1414 -258 0
+rnode "vout2.t0" 0 146.755 1348 -258 0
+rnode "vout2.n4" 0 321.322 1381 -258 0
+rnode "vout2.t6" 0 146.755 1222 -258 0
+rnode "vout2.t3" 0 146.755 1156 -258 0
+rnode "vout2.n5" 0 321.322 1189 -258 0
+rnode "vout2.t10" 0 106.16 631 -763 0
+rnode "sky130_fd_pr__nfet_01v8_XKTGFS_0.D" 0 185.837 664 -762 0
+rnode "vout2" 0 162.369 818 -656 0
+rnode "vout2.t8" 0 501.629 1030 -258 0
+rnode "vout2.n6" 0 609.003 997 -258 0
+rnode "vout2.n7" 0 817.216 1166 286 0
+rnode "vout2.n8" 0 714.685 1358 286 0
+rnode "sky130_fd_pr__pfet_01v8_655UAJ_0.D" 0 19.3985 1475 291 0
+resist "sky130_fd_pr__pfet_01v8_655UAJ_0.D" "vout2.n8" 0.261029
+resist "sky130_fd_pr__pfet_01v8_655UAJ_0.D" "vout2.n3" 0.275735
+resist "vout2.n8" "vout2.n7" 0.536765
+resist "vout2.n3" "vout2.n1" 0.536765
+resist "vout2" "sky130_fd_pr__nfet_01v8_XKTGFS_0.D" 0.756793
+resist "vout2.n6" "vout2" 1.62319
+resist "vout2.n7" "vout2.n6" 2.01503
+resist "vout2.n5" "vout2.t3" 5.71265
+resist "vout2.n5" "vout2.t6" 5.71265
+resist "vout2.n4" "vout2.t0" 5.71265
+resist "vout2.n4" "vout2.t2" 5.71265
+resist "vout2.n2" "vout2.t5" 5.71265
+resist "vout2.n2" "vout2.t9" 5.71265
+resist "vout2.n0" "vout2.t1" 5.71265
+resist "vout2.n0" "vout2.t4" 5.71265
+resist "vout2.n7" "vout2.n5" 38.622
+resist "vout2.n8" "vout2.n4" 38.622
+resist "vout2.n3" "vout2.n2" 38.622
+resist "vout2.n1" "vout2.n0" 38.622
+resist "vout2.n6" "vout2.t8" 42.8564
+resist "vout2.n1" "vout2.t7" 44.8714
+resist "sky130_fd_pr__nfet_01v8_XKTGFS_0.D" "vout2.t10" 62.3378
+rnode "X.t8" 0 95.7907 1141 -258 0
+rnode "X.t11" 0 95.7543 1333 -258 0
+rnode "X.n0" 0 136.852 1333 -891 0
+rnode "X.t6" 0 95.7543 1525 -258 0
+rnode "X.n1" 0 72.4257 1525 -891 0
+rnode "X.t10" 0 95.7543 1717 -258 0
+rnode "X.n2" 0 72.4257 1717 -891 0
+rnode "X.t4" 0 95.7543 1909 -258 0
+rnode "X.n3" 0 161.381 1909 -891 0
+rnode "X.t7" 0 95.7543 1813 -258 0
+rnode "X.n4" 0 161.144 1813 375 0
+rnode "X.t2" 0 95.7543 1621 -258 0
+rnode "X.n5" 0 67.163 1621 375 0
+rnode "sky130_fd_pr__pfet_01v8_655UAJ_0.G" 0 11.0239 1521 374 0
+rnode "X.t9" 0 95.7543 1429 -258 0
+rnode "X.n6" 0 66.6644 1429 375 0
+rnode "X.t5" 0 95.7543 1237 -258 0
+rnode "X.n7" 0 72.6036 1237 375 0
+rnode "X.t3" 0 95.7543 1045 -258 0
+rnode "X.n8" 0 95.3192 1045 375 0
+rnode "X" 0 58.6818 579 449 0
+rnode "X.t1" 0 31.2129 210 47 0
+rnode "sky130_fd_pr__nfet_01v8_XZTLFT_0.D" 0 56.2121 240 50 0
+rnode "X.n9" 0 57.6029 390 123 0
+rnode "X.t0" 0 85.023 604 56 0
+rnode "X.n10" 0 100.348 575 56 0
+rnode "sky130_fd_pr__pfet_01v8_R3FGVA_0.D" 0 36.3387 575 54 0
+resist "sky130_fd_pr__pfet_01v8_R3FGVA_0.D" "X.n10" 0.00543478
+resist "X.n6" "sky130_fd_pr__pfet_01v8_655UAJ_0.G" 0.310422
+resist "sky130_fd_pr__pfet_01v8_655UAJ_0.G" "X.n5" 0.339834
+resist "X.n8" "X.n7" 0.625812
+resist "X.n9" "sky130_fd_pr__nfet_01v8_XZTLFT_0.D" 0.637022
+resist "X.n7" "X.n6" 0.650256
+resist "X.n5" "X.n4" 0.650256
+resist "X.n3" "X.n2" 0.650256
+resist "X.n2" "X.n1" 0.650256
+resist "X.n1" "X.n0" 0.650256
+resist "X.n10" "X.n9" 0.749506
+resist "X" "X.n8" 1.86235
+resist "X.n9" "X" 1.88636
+resist "X.n4" "X.n3" 6.02158
+resist "X.n10" "X.t0" 111.634
+resist "sky130_fd_pr__nfet_01v8_XZTLFT_0.D" "X.t1" 117.391
+resist "X.n0" "X.t11" 1149.4
+resist "X.n1" "X.t6" 1149.4
+resist "X.n2" "X.t10" 1149.4
+resist "X.n3" "X.t4" 1149.4
+resist "X.n4" "X.t7" 1149.4
+resist "X.n5" "X.t2" 1149.4
+resist "X.n6" "X.t9" 1149.4
+resist "X.n7" "X.t5" 1149.4
+resist "X.n8" "X.t3" 1149.4
+resist "X.n0" "X.t8" 1150.05
+rnode "gnd" 0 0 -11 -833 0
+rnode "gnd.n0" 0 0 -7 -745 0
+rnode "gnd.n1" 0 0 -167 -710 0
+rnode "gnd.t2" 0 0 -9 -584 0
+rnode "gnd.t12" 0 0 195 47 0
+rnode "gnd.t13" 0 0 -634 -763 0
+rnode "sky130_fd_pr__nfet_01v8_XKTGFS_0.B" 0 0 618 -992 0
+rnode "sky130_fd_pr__nfet_01v8_5Y6VJK_0.S" 0 0 35 -583 0
+rnode "gnd.t3" 0 0 6 -584 0
+rnode "gnd.n2" 0 0 35 -584 0
+rnode "sky130_fd_pr__nfet_01v8_XZTLFT_0.B" 0 0 195 -134 0
+rnode "gnd.n3" 0 0 195 -134 0
+rnode "sky130_fd_pr__nfet_01v8_XZTLFT_1.B" 0 0 -227 -134 0
+rnode "gnd.n4" 0 0 149 -151 0
+rnode "gnd.n5" 0 0 149 -361 0
+rnode "gnd.n6" 0 0 149 -559 0
+rnode "gnd.n7" 0 0 149 -710 0
+rnode "sky130_fd_pr__nfet_01v8_XKTGFS_0.S" 0 0 572 -758 0
+rnode "gnd.t16" 0 0 601 -763 0
+rnode "gnd.n8" 0 0 572 -763 0
+rnode "gnd.n9" 0 0 447 -844 0
+rnode "gnd.n10" 0 0 616 -992 0
+rnode "gnd.t15" 0 0 616 -763 0
+rnode "gnd.t10" 0 0 -1461 -293 0
+rnode "gnd.t8" 0 0 -1365 -293 0
+rnode "sky130_fd_pr__nfet_01v8_DAKYLM_1.S" 0 0 -1596 120 0
+rnode "sky130_fd_pr__nfet_01v8_DAKYLM_1.S" 0 -0 -1596 120 0
+rnode "gnd.n11" 0 0 -1447 137 0
+rnode "gnd.t9" 0 0 -1380 -293 0
+rnode "gnd.t11" 0 0 -1446 -293 0
+rnode "gnd.n12" 0 0 -1413 -293 0
+rnode "gnd.n13" 0 0 -1415 138 0
+rnode "gnd.t1" 0 0 -1188 -293 0
+rnode "gnd.t5" 0 0 -1254 -293 0
+rnode "gnd.n14" 0 0 -1221 -293 0
+rnode "gnd.n15" 0 0 -1222 139 0
+rnode "gnd.t7" 0 0 -1062 -293 0
+rnode "gnd.n16" 0 0 -1029 -293 0
+rnode "sky130_fd_pr__nfet_01v8_XKTGFS_1.S" 0 0 -590 -758 0
+rnode "gnd.t14" 0 0 -619 -763 0
+rnode "gnd.n17" 0 0 -590 -763 0
+rnode "gnd.n18" 0 0 -461 -842 0
+rnode "gnd.n19" 0 0 -634 -992 0
+rnode "sky130_fd_pr__nfet_01v8_XKTGFS_1.B" 0 0 -636 -992 0
+rnode "gnd.n20" 0 0 -916 -998 0
+rnode "sky130_fd_pr__nfet_01v8_DAKYLM_1.B" 0 0 -1261 -1027 0
+rnode "gnd.t4" 0 0 -1269 -1030 0
+rnode "gnd.t0" 0 0 -1173 -293 0
+rnode "gnd.t6" 0 0 -1077 -293 0
+rnode "gnd.n21" 0 0 -860 481 0
+rnode "gnd.n22" 0 0 -9 -728 0
+rnode "sky130_fd_pr__nfet_01v8_5Y6VJK_0.B" 0 0 -9 -728 0
+resist "gnd.n13" "gnd.n11" 0.0769231
+resist "gnd.n11" "sky130_fd_pr__nfet_01v8_DAKYLM_1.S" 0.358173
+resist "sky130_fd_pr__nfet_01v8_XKTGFS_1.B" "gnd.n19" 0.365714
+resist "gnd.n10" "sky130_fd_pr__nfet_01v8_XKTGFS_0.B" 0.419672
+resist "gnd.n11" "sky130_fd_pr__nfet_01v8_DAKYLM_1.S" 0.532143
+resist "gnd.n15" "gnd.n13" 0.601763
+resist "sky130_fd_pr__nfet_01v8_5Y6VJK_0.B" "gnd.n0" 0.731429
+resist "gnd.n8" "sky130_fd_pr__nfet_01v8_XKTGFS_0.S" 3.11359
+resist "gnd.n17" "sky130_fd_pr__nfet_01v8_XKTGFS_1.S" 3.11359
+resist "gnd.n12" "gnd.t11" 3.41379
+resist "gnd.n12" "gnd.t9" 3.41379
+resist "gnd.n14" "gnd.t5" 3.41379
+resist "gnd.n14" "gnd.t1" 3.41379
+resist "gnd.n16" "gnd.n15" 6.98568
+resist "gnd.n2" "sky130_fd_pr__nfet_01v8_5Y6VJK_0.S" 9.30272
+resist "gnd.n16" "gnd.t7" 14.2961
+resist "gnd.n13" "gnd.n12" 17.2589
+resist "gnd.n15" "gnd.n14" 17.2616
+resist "gnd.n4" "sky130_fd_pr__nfet_01v8_XZTLFT_0.B" 17.3176
+resist "gnd.n0" "gnd" 33.1294
+resist "gnd.n6" "gnd.n2" 42.9176
+resist "gnd.n7" "gnd.n6" 44.0471
+resist "gnd.n22" "gnd.n21" 46.8085
+resist "gnd.n7" "gnd.n0" 57.0514
+resist "sky130_fd_pr__nfet_01v8_5Y6VJK_0.B" "gnd.n1" 57.7829
+resist "gnd.n8" "gnd.t16" 59.2351
+resist "gnd.n17" "gnd.t14" 59.2351
+resist "gnd.n6" "gnd.n5" 61.7412
+resist "gnd.n20" "sky130_fd_pr__nfet_01v8_XKTGFS_1.B" 67.9334
+resist "gnd.n19" "gnd.n18" 75.9296
+resist "gnd.n5" "gnd.n4" 79.0588
+resist "gnd.n10" "gnd.n9" 79.3182
+resist "gnd.n9" "gnd.n8" 85.4588
+resist "gnd.n18" "gnd.n17" 86.2118
+resist "sky130_fd_pr__nfet_01v8_DAKYLM_1.B" "gnd.n20" 125.919
+resist "gnd.n4" "sky130_fd_pr__nfet_01v8_XZTLFT_1.B" 141.553
+resist "gnd.t4" "sky130_fd_pr__nfet_01v8_DAKYLM_1.B" 149.262
+resist "gnd.n2" "gnd.t3" 220.51
+resist "gnd.n5" "gnd.n1" 237.553
+resist "gnd.t8" "gnd.t10" 261.872
+resist "gnd.t4" "gnd.t8" 261.872
+resist "gnd.t0" "gnd.t4" 261.872
+resist "gnd.t6" "gnd.t0" 261.872
+resist "gnd.n20" "gnd.n16" 262.456
+resist "gnd.n21" "gnd.t13" 271.09
+resist "gnd.n21" "gnd.t15" 271.09
+resist "sky130_fd_pr__nfet_01v8_5Y6VJK_0.B" "gnd.n22" 585
+resist "sky130_fd_pr__nfet_01v8_XZTLFT_1.B" "gnd.n3" 585
+resist "gnd.n3" "sky130_fd_pr__nfet_01v8_XZTLFT_0.B" 585
+resist "gnd.n21" "gnd.t6" 591.94
+resist "gnd.n9" "gnd.n7" 610.076
+resist "gnd.n22" "gnd.t2" 748.936
+resist "gnd.n3" "gnd.t12" 941.371
+resist "gnd.n18" "gnd.n1" 1582.12
+resist "gnd.n3" "gnd.t2" 2340.43
+resist "gnd.n19" "gnd.t13" 2972.68
+resist "gnd.t15" "gnd.n10" 2972.68
+resist "gnd.n21" "gnd.t12" 21204.1
+rnode "sky130_fd_pr__pfet_01v8_R3FGVA_0.S" 0 49.2685 667 62 0
+rnode "vdd.t11" 0 70.379 634 56 0
+rnode "vdd.n0" 0 44.8393 663 56 0
+rnode "vdd.n1" 0 65.8531 664 361 0
+rnode "vdd.t43" 0 1211.71 1909 -258 0
+rnode "vdd.t4" 0 442.296 1813 -258 0
+rnode "vdd.t41" 0 442.296 1717 -258 0
+rnode "vdd.t6" 0 442.296 1621 -258 0
+rnode "vdd.t8" 0 331.722 1525 -258 0
+rnode "vdd.t44" 0 54.8924 1894 -258 0
+rnode "vdd.t5" 0 54.8924 1828 -258 0
+rnode "vdd.n2" 0 141.935 1861 -258 0
+rnode "vdd.t38" 0 54.8924 1126 -258 0
+rnode "vdd.t40" 0 54.8924 1060 -258 0
+rnode "vdd.n3" 0 145.022 1093 -258 0
+rnode "vdd.t1" 0 54.8924 1318 -258 0
+rnode "vdd.t13" 0 54.8924 1252 -258 0
+rnode "vdd.n4" 0 141.813 1285 -258 0
+rnode "vdd.n5" 0 438.649 1286 158 0
+rnode "sky130_fd_pr__pfet_01v8_655UAJ_0.S" 0 8.83154 1409 158 0
+rnode "vdd.t9" 0 54.8924 1510 -258 0
+rnode "vdd.t3" 0 54.8924 1444 -258 0
+rnode "vdd.n6" 0 141.853 1477 -258 0
+rnode "vdd.n7" 0 219.894 1476 159 0
+rnode "vdd.t42" 0 54.8924 1702 -258 0
+rnode "vdd.t7" 0 54.8924 1636 -258 0
+rnode "vdd.n8" 0 141.894 1669 -258 0
+rnode "vdd.n9" 0 226.056 1670 160 0
+rnode "vdd.n10" 0 296.838 1861 187 0
+rnode "sky130_fd_pr__pfet_01v8_655UAJ_0.B" 0 331.526 1477 477 0
+rnode "vdd.n11" 0 485.34 1477 477 0
+rnode "vdd.t2" 0 331.722 1429 -258 0
+rnode "vdd.t0" 0 442.296 1333 -258 0
+rnode "vdd.t12" 0 442.296 1237 -258 0
+rnode "vdd.t37" 0 442.296 1141 -258 0
+rnode "vdd.t39" 0 1110.6 1045 -258 0
+rnode "vdd.t10" 0 925.71 619 56 0
+rnode "vdd.n12" 0 397.095 619 378 0
+rnode "sky130_fd_pr__pfet_01v8_R3FGVA_1.S" 0 49.2685 -697 63 0
+rnode "vdd.t35" 0 70.379 -664 57 0
+rnode "vdd.n13" 0 44.8819 -693 57 0
+rnode "vdd.t36" 0 101.3 -3173 -127 0
+rnode "vdd.t24" 0 1211.71 -1891 -295 0
+rnode "vdd.t20" 0 442.296 -1987 -295 0
+rnode "vdd.t28" 0 442.296 -2083 -295 0
+rnode "vdd.t32" 0 442.296 -2179 -295 0
+rnode "vdd.t18" 0 331.722 -2275 -295 0
+rnode "vdd.t14" 0 1211.71 -2755 -295 0
+rnode "vdd.t22" 0 442.296 -2659 -295 0
+rnode "vdd.t16" 0 442.296 -2563 -295 0
+rnode "vdd.t30" 0 442.296 -2467 -295 0
+rnode "vdd.t26" 0 331.722 -2371 -295 0
+rnode "vdd.n14" 0 485.34 -2323 440 0
+rnode "sky130_fd_pr__pfet_01v8_655UAJ_1.B" 0 496.268 -2323 440 0
+rnode "vdd.t25" 0 54.8924 -1906 -295 0
+rnode "vdd.t21" 0 54.8924 -1972 -295 0
+rnode "vdd.n15" 0 144.984 -1939 -295 0
+rnode "vdd.t23" 0 54.8924 -2674 -295 0
+rnode "vdd.t15" 0 54.8924 -2740 -295 0
+rnode "vdd.n16" 0 145.139 -2707 -295 0
+rnode "vdd.t31" 0 54.8924 -2482 -295 0
+rnode "vdd.t17" 0 54.8924 -2548 -295 0
+rnode "vdd.n17" 0 141.894 -2515 -295 0
+rnode "vdd.n18" 0 442.898 -2516 123 0
+rnode "vdd.t19" 0 54.8924 -2290 -295 0
+rnode "vdd.t27" 0 54.8924 -2356 -295 0
+rnode "vdd.n19" 0 141.853 -2323 -295 0
+rnode "vdd.n20" 0 219.894 -2322 122 0
+rnode "sky130_fd_pr__pfet_01v8_655UAJ_1.S" 0 8.83154 -2255 121 0
+rnode "vdd.t29" 0 54.8924 -2098 -295 0
+rnode "vdd.t33" 0 54.8924 -2164 -295 0
+rnode "vdd.n21" 0 141.813 -2131 -295 0
+rnode "vdd.n22" 0 211.728 -2132 121 0
+rnode "vdd.n23" 0 265.428 -2129 147 0
+rnode "vdd.n24" 0 91.0133 -2125 442 0
+rnode "vdd.n25" 0 94.9917 -693 362 0
+rnode "vdd.t34" 0 824.605 -649 57 0
+rnode "vdd.n26" 0 396.975 -649 379 0
+rnode "sky130_fd_pr__pfet_01v8_R3FGVA_1.B" 0 32.2899 -647 379 0
+rnode "vdd" 0 64.6098 -15 379 0
+rnode "sky130_fd_pr__pfet_01v8_R3FGVA_0.B" 0 32.8022 617 378 0
+resist "vdd.n23" "vdd.n22" 0.00721154
+resist "vdd.n7" "sky130_fd_pr__pfet_01v8_655UAJ_0.S" 0.209499
+resist "sky130_fd_pr__pfet_01v8_655UAJ_1.S" "vdd.n20" 0.209499
+resist "sky130_fd_pr__pfet_01v8_655UAJ_0.S" "vdd.n5" 0.42162
+resist "vdd.n22" "sky130_fd_pr__pfet_01v8_655UAJ_1.S" 0.42162
+resist "vdd.n10" "vdd.n9" 0.625437
+resist "vdd.n9" "vdd.n7" 0.64627
+resist "vdd.n20" "vdd.n18" 0.64627
+resist "sky130_fd_pr__pfet_01v8_R3FGVA_0.B" "vdd.n12" 0.711111
+resist "sky130_fd_pr__pfet_01v8_R3FGVA_1.B" "vdd.n26" 0.731429
+resist "vdd.n0" "sky130_fd_pr__pfet_01v8_R3FGVA_0.S" 1.8763
+resist "vdd.n13" "sky130_fd_pr__pfet_01v8_R3FGVA_1.S" 1.8763
+resist "vdd.n3" "vdd.t40" 5.71265
+resist "vdd.n3" "vdd.t38" 5.71265
+resist "vdd.n4" "vdd.t13" 5.71265
+resist "vdd.n4" "vdd.t1" 5.71265
+resist "vdd.n6" "vdd.t3" 5.71265
+resist "vdd.n6" "vdd.t9" 5.71265
+resist "vdd.n8" "vdd.t7" 5.71265
+resist "vdd.n8" "vdd.t42" 5.71265
+resist "vdd.n2" "vdd.t5" 5.71265
+resist "vdd.n2" "vdd.t44" 5.71265
+resist "vdd.n15" "vdd.t21" 5.71265
+resist "vdd.n15" "vdd.t25" 5.71265
+resist "vdd.n16" "vdd.t15" 5.71265
+resist "vdd.n16" "vdd.t23" 5.71265
+resist "vdd.n17" "vdd.t17" 5.71265
+resist "vdd.n17" "vdd.t31" 5.71265
+resist "vdd.n19" "vdd.t27" 5.71265
+resist "vdd.n19" "vdd.t19" 5.71265
+resist "vdd.n21" "vdd.t33" 5.71265
+resist "vdd.n21" "vdd.t29" 5.71265
+resist "vdd.n24" "vdd.n23" 14.8697
+resist "vdd.n12" "vdd.n1" 16
+resist "vdd.n26" "vdd.n25" 16.0914
+resist "vdd.n11" "sky130_fd_pr__pfet_01v8_655UAJ_0.B" 24.6667
+resist "sky130_fd_pr__pfet_01v8_655UAJ_1.B" "vdd.n14" 24.6667
+resist "vdd.t2" "vdd.n11" 28.934
+resist "vdd.n11" "vdd.t8" 28.934
+resist "vdd.n14" "vdd.t26" 28.934
+resist "vdd.n14" "vdd.t18" 28.934
+resist "vdd.n5" "vdd.n4" 42.9579
+resist "vdd.n22" "vdd.n21" 42.9579
+resist "vdd.n7" "vdd.n6" 42.9606
+resist "vdd.n20" "vdd.n19" 42.9606
+resist "vdd.n9" "vdd.n8" 42.9633
+resist "vdd.n18" "vdd.n17" 42.9633
+resist "vdd.n10" "vdd.n2" 42.9661
+resist "vdd.n23" "vdd.n15" 43.5942
+resist "vdd.n18" "vdd.n16" 43.601
+resist "vdd.n5" "vdd.n3" 43.6015
+resist "vdd.t39" "vdd.t37" 57.868
+resist "vdd.t37" "vdd.t12" 57.868
+resist "vdd.t12" "vdd.t0" 57.868
+resist "vdd.t0" "vdd.t2" 57.868
+resist "vdd.t8" "vdd.t6" 57.868
+resist "vdd.t6" "vdd.t41" 57.868
+resist "vdd.t41" "vdd.t4" 57.868
+resist "vdd.t4" "vdd.t43" 57.868
+resist "vdd.t22" "vdd.t14" 57.868
+resist "vdd.t16" "vdd.t22" 57.868
+resist "vdd.t30" "vdd.t16" 57.868
+resist "vdd.t26" "vdd.t30" 57.868
+resist "vdd.t18" "vdd.t32" 57.868
+resist "vdd.t32" "vdd.t28" 57.868
+resist "vdd.t28" "vdd.t20" 57.868
+resist "vdd.t20" "vdd.t24" 57.868
+resist "vdd.n24" "sky130_fd_pr__pfet_01v8_655UAJ_1.B" 74.1856
+resist "vdd.n0" "vdd.t11" 110.084
+resist "vdd.n13" "vdd.t35" 110.084
+resist "vdd.n1" "vdd.n0" 112.732
+resist "vdd.n25" "vdd.n13" 113.942
+resist "sky130_fd_pr__pfet_01v8_655UAJ_0.B" "vdd.n10" 158.38
+resist "vdd.t10" "vdd.t39" 210.643
+resist "sky130_fd_pr__pfet_01v8_R3FGVA_0.B" "vdd" 230.187
+resist "vdd" "sky130_fd_pr__pfet_01v8_R3FGVA_1.B" 231.519
+resist "sky130_fd_pr__pfet_01v8_655UAJ_0.B" "vdd.n1" 324.117
+resist "vdd.n25" "vdd.n24" 525.278
+resist "sky130_fd_pr__pfet_01v8_655UAJ_1.B" "vdd.t36" 613.304
+resist "vdd.n12" "vdd.t10" 909.881
+resist "vdd.n26" "vdd.t34" 909.881
+rnode "vout1.t3" 0 137.724 -2194 -295 0
+rnode "vout1.t8" 0 137.724 -2260 -295 0
+rnode "vout1.n0" 0 301.548 -2227 -295 0
+rnode "vout1.t2" 0 137.724 -2002 -295 0
+rnode "vout1.t5" 0 137.724 -2068 -295 0
+rnode "vout1.n1" 0 301.548 -2035 -295 0
+rnode "vout1.t10" 0 99.627 -649 -763 0
+rnode "sky130_fd_pr__nfet_01v8_XKTGFS_1.D" 0 331.972 -682 -762 0
+rnode "vout1" 0 369.055 -1660 -1028 0
+rnode "vout1.t9" 0 470.76 -1876 -295 0
+rnode "vout1.n2" 0 608.05 -1843 -295 0
+rnode "vout1.n3" 0 766.925 -2012 249 0
+rnode "vout1.n4" 0 670.705 -2204 249 0
+rnode "vout1.t6" 0 499.852 -2770 -295 0
+rnode "vout1.t4" 0 137.724 -2578 -295 0
+rnode "vout1.t7" 0 137.724 -2644 -295 0
+rnode "vout1.n5" 0 301.548 -2611 -295 0
+rnode "vout1.n6" 0 1385.66 -2588 249 0
+rnode "vout1.t1" 0 137.724 -2386 -295 0
+rnode "vout1.t0" 0 137.724 -2452 -295 0
+rnode "vout1.n7" 0 301.548 -2419 -295 0
+rnode "vout1.n8" 0 671.203 -2396 249 0
+rnode "sky130_fd_pr__pfet_01v8_655UAJ_1.D" 0 18.2048 -2321 254 0
+resist "sky130_fd_pr__pfet_01v8_655UAJ_1.D" "vout1.n4" 0.261029
+resist "sky130_fd_pr__pfet_01v8_655UAJ_1.D" "vout1.n8" 0.275735
+resist "vout1.n4" "vout1.n3" 0.536765
+resist "vout1.n8" "vout1.n6" 0.536765
+resist "vout1.n3" "vout1.n2" 2.01503
+resist "vout1.n2" "vout1" 2.42074
+resist "vout1" "sky130_fd_pr__nfet_01v8_XKTGFS_1.D" 3.36957
+resist "vout1.n1" "vout1.t5" 5.71265
+resist "vout1.n1" "vout1.t2" 5.71265
+resist "vout1.n0" "vout1.t8" 5.71265
+resist "vout1.n0" "vout1.t3" 5.71265
+resist "vout1.n7" "vout1.t0" 5.71265
+resist "vout1.n7" "vout1.t1" 5.71265
+resist "vout1.n5" "vout1.t7" 5.71265
+resist "vout1.n5" "vout1.t4" 5.71265
+resist "vout1.n3" "vout1.n1" 38.622
+resist "vout1.n4" "vout1.n0" 38.622
+resist "vout1.n8" "vout1.n7" 38.622
+resist "vout1.n6" "vout1.n5" 38.622
+resist "vout1.n2" "vout1.t9" 42.8564
+resist "vout1.n6" "vout1.t6" 44.8714
+resist "sky130_fd_pr__nfet_01v8_XKTGFS_1.D" "vout1.t10" 62.3378
+rnode "Y.t6" 0 102.839 -1891 -295 0
+rnode "Y.t8" 0 102.878 -1987 -295 0
+rnode "Y.t2" 0 102.839 -2179 -295 0
+rnode "Y.n0" 0 146.977 -2179 -928 0
+rnode "Y.t5" 0 102.839 -2371 -295 0
+rnode "Y.n1" 0 77.7842 -2371 -928 0
+rnode "Y.t10" 0 102.839 -2563 -295 0
+rnode "Y.n2" 0 77.7842 -2563 -928 0
+rnode "Y.t11" 0 102.839 -2755 -295 0
+rnode "Y.n3" 0 173.321 -2755 -928 0
+rnode "Y.t7" 0 102.839 -2659 -295 0
+rnode "Y.n4" 0 173.066 -2659 338 0
+rnode "Y.t3" 0 102.839 -2467 -295 0
+rnode "Y.n5" 0 72.1322 -2467 338 0
+rnode "sky130_fd_pr__pfet_01v8_655UAJ_1.G" 0 11.8395 -2367 337 0
+rnode "Y.t9" 0 102.839 -2275 -295 0
+rnode "Y.n6" 0 71.5967 -2275 338 0
+rnode "Y.t4" 0 102.839 -2083 -295 0
+rnode "Y.n7" 0 77.6153 -2083 338 0
+rnode "Y.n8" 0 166.403 -1894 361 0
+rnode "Y" 0 128.603 -641 450 0
+rnode "Y.t1" 0 33.5222 -242 47 0
+rnode "sky130_fd_pr__nfet_01v8_XZTLFT_1.D" 0 58.9045 -272 50 0
+rnode "Y.n9" 0 72.7448 -486 135 0
+rnode "Y.t0" 0 91.3136 -634 57 0
+rnode "Y.n10" 0 98.9368 -605 57 0
+rnode "sky130_fd_pr__pfet_01v8_R3FGVA_1.D" 0 39.0272 -605 55 0
+resist "sky130_fd_pr__pfet_01v8_R3FGVA_1.D" "Y.n10" 0.00543478
+resist "Y.n6" "sky130_fd_pr__pfet_01v8_655UAJ_1.G" 0.310422
+resist "sky130_fd_pr__pfet_01v8_655UAJ_1.G" "Y.n5" 0.339834
+resist "Y.n10" "Y.n9" 0.476116
+resist "Y.n8" "Y.n7" 0.642104
+resist "Y.n7" "Y.n6" 0.650256
+resist "Y.n5" "Y.n4" 0.650256
+resist "Y.n3" "Y.n2" 0.650256
+resist "Y.n2" "Y.n1" 0.650256
+resist "Y.n1" "Y.n0" 0.650256
+resist "Y.n9" "sky130_fd_pr__nfet_01v8_XZTLFT_1.D" 0.832798
+resist "Y.n9" "Y" 1.48684
+resist "Y" "Y.n8" 4.35526
+resist "Y.n4" "Y.n3" 6.02158
+resist "Y.n10" "Y.t0" 111.634
+resist "sky130_fd_pr__nfet_01v8_XZTLFT_1.D" "Y.t1" 117.392
+resist "Y.n0" "Y.t2" 1149.4
+resist "Y.n1" "Y.t5" 1149.4
+resist "Y.n2" "Y.t10" 1149.4
+resist "Y.n3" "Y.t11" 1149.4
+resist "Y.n4" "Y.t7" 1149.4
+resist "Y.n5" "Y.t3" 1149.4
+resist "Y.n6" "Y.t9" 1149.4
+resist "Y.n7" "Y.t4" 1149.4
+resist "Y.n8" "Y.t6" 1149.41
+resist "Y.n0" "Y.t8" 1150.05
+device msubckt sky130_fd_pr__pfet_01v8 1318 -827 1319 -826  "vdd.t0" "X.t11" 60 0 "vdd.t1" 1138 37554,1204 "vout2.t0" 1138 37554,1204
+device msubckt sky130_fd_pr__nfet_01v8 -1188 -873 -1187 -872  "gnd.t0" "sky130_fd_pr__nfet_01v8_DAKYLM_1.D" 60 0 "gnd.t1" 1160 38280,1226 "sky130_fd_pr__nfet_01v8_DAKYLM_1.D" 1160 38280,1226
+device msubckt sky130_fd_pr__pfet_01v8 -2770 -864 -2769 -863  "vdd.t14" "Y.t11" 60 0 "vout1.t6" 1138 70556,2400 "vdd.t15" 1138 37554,1204
+device msubckt sky130_fd_pr__pfet_01v8 1702 -827 1703 -826  "vdd.t41" "X.t10" 60 0 "vdd.t42" 1138 37554,1204 "vout2.t1" 1138 37554,1204
+device msubckt sky130_fd_pr__nfet_01v8 601 -897 602 -896  "gnd.t15" "vb2.t1" 60 0 "gnd.t16" 268 15544,652 "vout2.t10" 268 15544,652
+device msubckt sky130_fd_pr__pfet_01v8 1414 -827 1415 -826  "vdd.t2" "X.t9" 60 0 "vout2.t2" 1138 37554,1204 "vdd.t3" 1138 37554,1204
+device msubckt sky130_fd_pr__nfet_01v8 -649 -897 -648 -896  "gnd.t13" "vb2.t0" 60 0 "vout1.t10" 268 15544,652 "gnd.t14" 268 15544,652
+device msubckt sky130_fd_pr__nfet_01v8 -1284 -873 -1283 -872  "gnd.t4" "sky130_fd_pr__nfet_01v8_DAKYLM_1.D" 60 0 "sky130_fd_pr__nfet_01v8_DAKYLM_1.D" 1160 38280,1226 "gnd.t5" 1160 38280,1226
+device msubckt sky130_fd_pr__pfet_01v8 1126 -827 1127 -826  "vdd.t37" "X.t8" 60 0 "vdd.t38" 1138 37554,1204 "vout2.t3" 1138 37554,1204
+device msubckt sky130_fd_pr__pfet_01v8 1798 -827 1799 -826  "vdd.t4" "X.t7" 60 0 "vout2.t4" 1138 37554,1204 "vdd.t5" 1138 37554,1204
+device msubckt sky130_fd_pr__pfet_01v8 604 -171 605 -170  "vdd.t10" "vb1.t1" 60 0 "X.t0" 454 26332,1024 "vdd.t11" 454 26332,1024
+device msubckt sky130_fd_pr__pfet_01v8 -2578 -864 -2577 -863  "vdd.t16" "Y.t10" 60 0 "vout1.t4" 1138 37554,1204 "vdd.t17" 1138 37554,1204
+device msubckt sky130_fd_pr__pfet_01v8 1510 -827 1511 -826  "vdd.t8" "X.t6" 60 0 "vdd.t9" 1138 37554,1204 "vout2.t5" 1138 37554,1204
+device msubckt sky130_fd_pr__pfet_01v8 -2290 -864 -2289 -863  "vdd.t18" "Y.t9" 60 0 "vdd.t19" 1138 37554,1204 "vout1.t8" 1138 37554,1204
+device msubckt sky130_fd_pr__pfet_01v8 1222 -827 1223 -826  "vdd.t12" "X.t5" 60 0 "vout2.t6" 1138 37554,1204 "vdd.t13" 1138 37554,1204
+device msubckt sky130_fd_pr__pfet_01v8 -2002 -864 -2001 -863  "vdd.t20" "Y.t8" 60 0 "vout1.t2" 1138 37554,1204 "vdd.t21" 1138 37554,1204
+device rsubckt sky130_fd_pr__res_generic_po -3206 -457 -3205 -456  "None" "a_n3206_n457#" 132 0 "vdd.t36" 330 28380,992 "sky130_fd_pr__nfet_01v8_DAKYLM_1.D" 330 28380,992
+device msubckt sky130_fd_pr__pfet_01v8 1894 -827 1895 -826  "vdd.t43" "X.t4" 60 0 "vdd.t44" 1138 37554,1204 "vout2.t7" 1138 70556,2400
+device msubckt sky130_fd_pr__nfet_01v8 -1092 -873 -1091 -872  "gnd.t6" "sky130_fd_pr__nfet_01v8_DAKYLM_1.D" 60 0 "sky130_fd_pr__nfet_01v8_DAKYLM_1.D" 1160 38280,1226 "gnd.t7" 1160 71920,2444
+device msubckt sky130_fd_pr__pfet_01v8 -2674 -864 -2673 -863  "vdd.t22" "Y.t7" 60 0 "vdd.t23" 1138 37554,1204 "vout1.t7" 1138 37554,1204
+device msubckt sky130_fd_pr__pfet_01v8 -664 -170 -663 -169  "vdd.t34" "vb1.t0" 60 0 "vdd.t35" 454 26332,1024 "Y.t0" 454 26332,1024
+device msubckt sky130_fd_pr__pfet_01v8 -1906 -864 -1905 -863  "vdd.t24" "Y.t6" 60 0 "vdd.t25" 1138 37554,1204 "vout1.t9" 1138 70556,2400
+device msubckt sky130_fd_pr__pfet_01v8 -2386 -864 -2385 -863  "vdd.t26" "Y.t5" 60 0 "vout1.t1" 1138 37554,1204 "vdd.t27" 1138 37554,1204
+device msubckt sky130_fd_pr__nfet_01v8 180 -39 181 -38  "gnd.t12" "vin2.t0" 60 0 "sky130_fd_pr__nfet_01v8_5Y6VJK_0.D" 172 9976,460 "X.t1" 172 9976,460
+device msubckt sky130_fd_pr__nfet_01v8 -242 -39 -241 -38  "gnd.t12" "vin1.t0" 60 0 "Y.t1" 172 9976,460 "sky130_fd_pr__nfet_01v8_5Y6VJK_0.D" 172 9976,460
+device msubckt sky130_fd_pr__nfet_01v8 -1380 -873 -1379 -872  "gnd.t8" "sky130_fd_pr__nfet_01v8_DAKYLM_1.D" 60 0 "gnd.t9" 1160 38280,1226 "sky130_fd_pr__nfet_01v8_DAKYLM_1.D" 1160 38280,1226
+device msubckt sky130_fd_pr__pfet_01v8 -2098 -864 -2097 -863  "vdd.t28" "Y.t4" 60 0 "vdd.t29" 1138 37554,1204 "vout1.t5" 1138 37554,1204
+device msubckt sky130_fd_pr__pfet_01v8 1030 -827 1031 -826  "vdd.t39" "X.t3" 60 0 "vout2.t8" 1138 70556,2400 "vdd.t40" 1138 37554,1204
+device msubckt sky130_fd_pr__pfet_01v8 1606 -827 1607 -826  "vdd.t6" "X.t2" 60 0 "vout2.t9" 1138 37554,1204 "vdd.t7" 1138 37554,1204
+device msubckt sky130_fd_pr__pfet_01v8 -2482 -864 -2481 -863  "vdd.t30" "Y.t3" 60 0 "vdd.t31" 1138 37554,1204 "vout1.t0" 1138 37554,1204
+device msubckt sky130_fd_pr__nfet_01v8 -24 -633 -23 -632  "gnd.t2" "sky130_fd_pr__nfet_01v8_DAKYLM_1.D" 60 0 "sky130_fd_pr__nfet_01v8_5Y6VJK_0.D" 98 5684,312 "gnd.t3" 98 5684,312
+device msubckt sky130_fd_pr__nfet_01v8 -1476 -873 -1475 -872  "gnd.t10" "sky130_fd_pr__nfet_01v8_DAKYLM_1.D" 60 0 "sky130_fd_pr__nfet_01v8_DAKYLM_1.D" 1160 71920,2444 "gnd.t11" 1160 38280,1226
+device msubckt sky130_fd_pr__pfet_01v8 -2194 -864 -2193 -863  "vdd.t32" "Y.t2" 60 0 "vout1.t3" 1138 37554,1204 "vdd.t33" 1138 37554,1204
