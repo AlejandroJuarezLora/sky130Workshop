@@ -1,0 +1,19 @@
+| units: 500000 tech: sky130A format: MIT
+x vin vout vdd vdd s=34800,1316 d=34800,1316 l=30 w=600 x=716 y=2011 sky130_fd_pr__pfet_01v8
+x vin vout vss vss s=17400,716 d=17400,716 l=30 w=300 x=716 y=684 sky130_fd_pr__nfet_01v8
+R vdd 12620
+= vdd sky130_fd_pr__pfet_01v8_REGW27_0/S
+= vdd sky130_fd_pr__pfet_01v8_REGW27_0/B
+= vdd li_642_2015#
+R vss 10495
+= vss sky130_fd_pr__nfet_01v8_2SFZUD_0/B
+= vss sky130_fd_pr__pfet_01v8_REGW27_0/VSUBS
+= vss VSUBS
+= vss sky130_fd_pr__nfet_01v8_2SFZUD_0/S
+= vss li_642_583#
+R vout 3036
+= vout sky130_fd_pr__nfet_01v8_2SFZUD_0/D
+= vout sky130_fd_pr__pfet_01v8_REGW27_0/D
+R vin 1988
+= vin sky130_fd_pr__nfet_01v8_2SFZUD_0/G
+= vin sky130_fd_pr__pfet_01v8_REGW27_0/G

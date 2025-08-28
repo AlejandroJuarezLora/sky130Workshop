@@ -1,0 +1,30 @@
+magic
+tech sky130A
+magscale 1 2
+timestamp 1756343927
+<< locali >>
+rect 642 2015 676 2108
+rect 642 583 678 705
+<< metal1 >>
+rect 728 1429 882 1465
+rect 686 1021 720 1366
+rect 846 913 882 1429
+rect 732 877 882 913
+use sky130_fd_pr__nfet_01v8_2SFZUD  sky130_fd_pr__nfet_01v8_2SFZUD_0
+timestamp 1756339337
+transform -1 0 703 0 1 864
+box -211 -329 211 329
+use sky130_fd_pr__pfet_01v8_REGW27  sky130_fd_pr__pfet_01v8_REGW27_0
+timestamp 1756343927
+transform -1 0 703 0 -1 1677
+box -211 -484 211 484
+<< labels >>
+flabel metal1 s 704 1192 704 1192 0 FreeSans 480 0 0 0 vin
+port 0 nsew
+flabel metal1 s 864 1188 864 1188 0 FreeSans 480 0 0 0 vout
+port 1 nsew
+flabel locali 701 2106 701 2106 0 FreeSans 480 0 0 0 vdd
+port 2 nsew
+flabel locali s 700 587 700 587 0 FreeSans 480 0 0 0 vss
+port 3 nsew
+<< end >>

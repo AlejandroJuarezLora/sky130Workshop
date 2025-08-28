@@ -1,0 +1,42 @@
+timestamp 1756343927
+version 8.3
+tech sky130A
+style ngspice()
+scale 1000 1 500000
+resistclasses 4400000 2200000 950000 3050000 120000 197000 114000 191000 120000 197000 114000 191000 48200 319800 2000000 48200 48200 12800 125 125 47 47 29 5
+use sky130_fd_pr__pfet_01v8_REGW27 sky130_fd_pr__pfet_01v8_REGW27_0 -1 0 703 0 -1 1677
+use sky130_fd_pr__nfet_01v8_2SFZUD sky130_fd_pr__nfet_01v8_2SFZUD_0 -1 0 703 0 1 864
+port "vss" 3 700 587 700 587 li
+port "vdd" 2 701 2106 701 2106 li
+port "vin" 0 704 1192 704 1192 m1
+port "vout" 1 864 1188 864 1188 m1
+node "vss" 0 0 700 587 li 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "vdd" 0 0 701 2106 li 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "vin" 1 105.33 704 1192 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 11730 758 0 0 0 0 0 0 0 0 0 0
+node "vout" 3 291.334 864 1188 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 29520 1712 0 0 0 0 0 0 0 0 0 0
+node "li_642_583#" 43 67.4709 642 583 li 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 4392 316 0 0 0 0 0 0 0 0 0 0 0 0
+node "li_642_2015#" 35 53.7164 642 2015 li 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3162 254 0 0 0 0 0 0 0 0 0 0 0 0
+substrate "VSUBS" 0 0 -1073741817 -1073741817 space 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+cap "li_642_583#" "li_642_2015#" 0.647982
+cap "vout" "vin" 86.25
+cap "sky130_fd_pr__pfet_01v8_REGW27_0/D" "vdd" 48.3357
+cap "vss" "sky130_fd_pr__pfet_01v8_REGW27_0/G" 5.79366
+cap "vss" "sky130_fd_pr__pfet_01v8_REGW27_0/D" 6.87755
+cap "vss" "vdd" 9.01879
+cap "sky130_fd_pr__pfet_01v8_REGW27_0/D" "sky130_fd_pr__pfet_01v8_REGW27_0/G" 8.73744
+cap "sky130_fd_pr__pfet_01v8_REGW27_0/G" "vdd" 20.4476
+cap "sky130_fd_pr__pfet_01v8_REGW27_0/D" "vdd" 0.017073
+cap "sky130_fd_pr__pfet_01v8_REGW27_0/G" "vdd" 1.48034
+cap "vss" "vdd" 0.291077
+merge "sky130_fd_pr__nfet_01v8_2SFZUD_0/B" "sky130_fd_pr__pfet_01v8_REGW27_0/VSUBS" -51.9837 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1676 -236 0 0 0 0 0 0 0 0 0 0 0 0
+merge "sky130_fd_pr__pfet_01v8_REGW27_0/VSUBS" "VSUBS"
+merge "VSUBS" "vss"
+merge "vss" "sky130_fd_pr__nfet_01v8_2SFZUD_0/S"
+merge "sky130_fd_pr__nfet_01v8_2SFZUD_0/S" "li_642_583#"
+merge "sky130_fd_pr__pfet_01v8_REGW27_0/S" "sky130_fd_pr__pfet_01v8_REGW27_0/B" -62.9487 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -646 -174 0 0 0 0 0 0 0 0 0 0 0 0
+merge "sky130_fd_pr__pfet_01v8_REGW27_0/B" "vdd"
+merge "vdd" "li_642_2015#"
+merge "sky130_fd_pr__nfet_01v8_2SFZUD_0/D" "sky130_fd_pr__pfet_01v8_REGW27_0/D" -155.851 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -2880 -304 0 0 0 0 0 0 0 0 0 0
+merge "sky130_fd_pr__pfet_01v8_REGW27_0/D" "vout"
+merge "sky130_fd_pr__nfet_01v8_2SFZUD_0/G" "sky130_fd_pr__pfet_01v8_REGW27_0/G" -116.775 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -2720 -296 0 0 0 0 0 0 0 0 0 0
+merge "sky130_fd_pr__pfet_01v8_REGW27_0/G" "vin"

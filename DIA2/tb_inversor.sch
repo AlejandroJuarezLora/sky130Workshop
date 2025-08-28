@@ -58,7 +58,7 @@ N -150 70 -150 100 {lab=GND}
 N 20 40 20 100 {lab=GND}
 N -240 100 20 100 {lab=GND}
 N 140 -10 190 -10 {lab=vout}
-C {/foss/designs/curso2025/inversor.sym} 0 70 0 0 {name=x1}
+C {inversor.sym} 0 70 0 0 {name=x1}
 C {vsource.sym} -150 40 0 0 {name=V1 value=0 savecurrent=false}
 C {vsource.sym} -240 40 0 0 {name=V2 value=1.8 savecurrent=false}
 C {gnd.sym} -60 100 0 0 {name=l1 lab=GND}
